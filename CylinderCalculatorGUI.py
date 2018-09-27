@@ -1,9 +1,9 @@
 import tkinter as tk
 import math
 
-def submit():
+def calculate():
 
-	print("Submit pressed")
+	print("Calculate pressed")
 	r = float(entr.get())
 	h = float(enth.get())
 
@@ -12,7 +12,7 @@ def submit():
 
 	output.config(state="normal")
 
-	outputValue = "Given\nradius:"+str(r)+" units\nheight:"+str(h)+" units\nThe volume is:"+str(v)+" units cubed\n\n"
+	outputValue = "Given\nradius:"+str(r)+" cm\nheight:"+str(h)+" cm\nThe volume is:"+str(v)+" cm cubed\n\n"
 
 	output.delete(1.0,tk.END)
 	output.insert(tk.INSERT,outputValue)
@@ -33,7 +33,7 @@ labh.pack()
 enth =  tk.Entry(root)
 enth.pack()
 
-btn = tk.Button(root, text="Submit", command=submit)
+btn = tk.Button(root, text="Calculate", command=calculate)
 btn.pack()
 
 output = tk.Text(root, width=50, height=10, borderwidth=3, relief=tk.GROOVE)
