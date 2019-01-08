@@ -29,6 +29,18 @@ labInput2.grid(row = 2, column = 0)
 labInput3 = tk.Label(root, text = "Gliders")
 labInput3.grid(row = 3, column = 0)
 
+labInput4 = tk.Label(root, text = "Uncommon Skins")
+labInput4.grid(row = 4, column = 0)
+
+labInput5 = tk.Label(root, text = "Rare Skins")
+labInput5.grid(row = 5, column = 0)
+
+labInput6 = tk.Label(root, text = "Epic Skins")
+labInput6.grid(row = 6, column = 0)
+
+labInput7 = tk.Label(root, text = "Legendary Skins")
+labInput7.grid(row = 7, column = 0)
+
 #***********WIDGET 5,6 (Checkboxes)***********
 
 cHC = tk.Checkbutton(root, text="Expand", variable=var1)
