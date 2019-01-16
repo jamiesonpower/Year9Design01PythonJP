@@ -10,6 +10,8 @@ def on_entry_click(event):
        entry.delete(0, "end") # delete all the text in the entry
        entry.insert(0, '') #Insert blank for user input
        entry.config(fg = 'black')
+
+
 def on_focusout(event):
     if entry.get() == '':
         entry.insert(0, 'Enter your username...')

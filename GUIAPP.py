@@ -133,11 +133,17 @@ def BtnMinusLFNC():
 
 def BtnSaveFNC():
 	print ("Saved")
-	print(data[0])
 	#Step 1: figure out who is selected?
+	print(data[0])
 
 
 	#Step 2: Take value from each entry change it to an int
+	#if data[0] == 0:
+		#update outfits
+	#if data[0] == 1:
+		#update pick
+	#if data[0] == 2:
+		#update gliders
 
 
 	#Step 3: Add that to the right list
